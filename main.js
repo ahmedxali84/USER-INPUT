@@ -1,7 +1,6 @@
 function information() {
     const name = document.getElementById('text').value;
     const email = document.getElementById('email').value;
-    const password = document.getElementById('password').value;
     const num = document.getElementById('number').value;
     const qualification = document.getElementById('Qualification').value;
     const preferances1 = document.getElementById('subject1').value;
@@ -11,11 +10,10 @@ function information() {
     myFunction(name, email, num, qualification, preferances1, preferances2, preferances3, preferances4);
 }
 
-function myFunction(name, password, email, num, qualification, preferances1, preferances2, preferances3, preferances4) {
+function myFunction(name, email, num, qualification, preferances1, preferances2, preferances3, preferances4) {
     const result = 
         '<p><strong>Name: </strong>' + name + '</p>' +
         '<p><strong>Email: </strong>' + email + '</p>' +
-        '<p><strong>Password: Not To Show </strong>' +  '</p>' +
         '<p><strong>Number: </strong>' + num + '</p>' +
         '<p><strong>Qualification: </strong>' + qualification + '</p>' +
         '<p><strong>Preferences:</strong></p>' +
