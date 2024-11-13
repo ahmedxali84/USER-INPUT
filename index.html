@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>USER INPUT</h2>
+        <input type="text" class="text" id="text" placeholder="Enter Your Name" required> <br>
+        <input type="email" id="email" placeholder="@gmail.com" required> <br>
+        <input type="password" id="password" placeholder="Enter Your Password" required> <br>
+        <input type="number" id="number" class="number" placeholder="Enter Your Phone Number" required> <br>
+        <input type="text" id="Qualification" class="Qualification" placeholder="Enter your Qualification"> <br>
+        <input type="text" id="subject1" placeholder="Select your 1st preference"> <br>
+        <input type="text" id="subject2" placeholder="Select your 2nd preference"> <br>
+        <input type="text" id="subject3" placeholder="Select your 3rd preference"> <br>
+        <input type="text" id="subject4" placeholder="Select your 4th preference"> <br>
+        Your English Skills
+        <input type="range" id="range"><br>
+        Your Urdu Skills
+        <input type="range" id="range"><br>
+        
+        <input type="checkbox" name="checkbox" id="checkbox" required>
+        <label>Agree Terms & Conditions</label>
+    </div>
+    <button onclick="information()">Click Here <br> To watch Your Application</button>
+    <div class="result" id="result">
+        <h1>USER INFORMATION</h1>
+    </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
